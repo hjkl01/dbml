@@ -1,20 +1,31 @@
-.npmrc
+node_modules
 .DS_Store
-node_modules/
-/dist/
+tsconfig.tsbuildinfo
+# Logs
+logs
 *.log
-*.cache
-*.package-lock.json
-/packages/*/node_modules
-/packages/*/lib
-**/out-files/**
+npm-debug.log*
+# Dependency directories
+node_modules/
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.swp
-packages/dbml-core/src/parse/mssql/manual_tests.js
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
+.env.test
+
+# build
+dist/
+tmp/
+
+out/
